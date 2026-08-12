@@ -1,0 +1,34 @@
+Package: scandolaR
+Type: Package
+Title: Utility Functions for Statistical Analysis and Regression
+Version: 0.1.0
+Authors@R: 
+    person(
+        given = "Michele",
+        family = "Scandola",
+        role = c("aut", "cre"),
+        email = "michele.scandola@proton.me"
+    )
+Description: A collection of utility functions for statistical analysis,
+    regression modelling, mixed-effects models, data inspection, outlier
+    detection, effect-size conversion, variable transformation, and graphical
+    diagnostics. The package includes functions for assessing collinearity in
+    mixed-effects models, extracting legends from 'ggplot2' objects, visually
+    inspecting observations, and identifying outliers according to several
+    commonly used criteria.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.1.0)
+Imports:
+    ggplot2,
+    lme4,
+    stats,
+    grDevices,
+    utils
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

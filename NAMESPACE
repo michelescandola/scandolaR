@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("grDevices", "boxplot.stats", "dev.off", "pdf")
+importFrom("stats", "lm", "mad", "median", "poly", "quantile",
+               "rstandard", "sd", "vcov")
+importFrom("utils", "write.csv2")
